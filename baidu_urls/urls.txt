@@ -1,3 +1,4 @@
+http://www.jinzili.cc/2017/12/23/Spring-Cloud-Feign/
 http://www.jinzili.cc/2017/11/21/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E5%BF%83%E5%BE%97%E8%AE%B0%E5%BD%95/
 http://www.jinzili.cc/2017/11/30/quartz%E7%9A%84misfire%E7%AD%96%E7%95%A5/
 http://www.jinzili.cc/2017/11/27/Kubernetes-%E4%B8%93%E6%B2%BB%E7%96%91%E9%9A%BE%E6%9D%82%E7%97%87/
