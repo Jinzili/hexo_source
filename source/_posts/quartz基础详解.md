@@ -2,7 +2,7 @@
 title: quartz基础详解
 date: 2017-10-17 18:40:41
 tags: [quartz]
-categories: "JavaUtils"
+categories: "Java Framework"
 ---
 # quartz基础知识
 ## Job

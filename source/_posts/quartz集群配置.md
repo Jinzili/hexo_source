@@ -2,7 +2,7 @@
 title: quartz集群配置
 date: 2017-10-19 15:14:27
 tags: [quartz]
-categories: "JavaUtils"
+categories: "Java Framework"
 ---
 # JobStore
 在开始配置quartz集群之前，先要了解一下Scheduler的“工作数据”的存放点：

@@ -2,7 +2,7 @@
 title: quartz的misfire策略
 date: 2017-11-30 14:01:52
 tags: ["quartz"]
-categories: "JavaUtils"
+categories: "Java Framework"
 ---
 quartz框架中提供了一系列misfire策略，是指任务因为某种原因错过了执行，可以根据不同任务需求定制不同的策略。
 
