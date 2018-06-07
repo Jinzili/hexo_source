@@ -6,7 +6,7 @@ import lxml.etree
 
 
 def get_url():
-    with open('/Users/jinzili/zili.jin/blog/public/baidusitemap.xml', 'r') as file:
+    with open('D:\\blog\\hexo_source\\public\\baidusitemap.xml', 'r') as file:
         xml_string = file.read()
         print xml_string
         doc = lxml.etree.fromstring(xml_string)
@@ -21,7 +21,7 @@ def get_url():
             print url
             urls.append(url)
         print urls
-        with open('/Users/jinzili/zili.jin/blog/baidu_urls/urls.txt', 'w') as url_txts:
+        with open('D:\\blog\\hexo_source\\baidu_urls\\urls.txt', 'w') as url_txts:
             for url in urls:
                 url_txts.writelines(url + '\n')
 
