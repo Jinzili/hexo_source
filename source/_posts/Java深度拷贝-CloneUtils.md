@@ -2,7 +2,7 @@
 title: 'Java深度拷贝:CloneUtils'
 date: 2017-12-23 17:26:46
 tags: ["Deep Clone"]
-categories: "JavaUtils"
+categories: "JavaBase"
 ---
 ```Java
 /**

@@ -2,7 +2,7 @@
 title: 'Java发送Http请求:HttpClientUtils'
 date: 2017-10-10 14:18:10
 tags: [JavaUtils, Http]
-categories: "JavaUtils"
+categories: "JavaBase"
 ---
 - 添加依赖
 
