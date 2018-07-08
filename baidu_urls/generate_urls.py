@@ -3,10 +3,13 @@
 # author:zili.jin
 
 import lxml.etree
-
+import os
 
 def get_url():
-    with open('D:\\blog\\hexo_source\\public\\baidusitemap.xml', 'r') as file:
+    xml_path_par = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
+    xml_path = os.path.join(xml_path_par, 'public', 'baidusitemap.xml')
+    print xml_path
+    with open(xml_path, 'r') as file:
         xml_string = file.read()
         print xml_string
         doc = lxml.etree.fromstring(xml_string)
@@ -21,7 +24,7 @@ def get_url():
             print url
             urls.append(url)
         print urls
-        with open('D:\\blog\\hexo_source\\baidu_urls\\urls.txt', 'w') as url_txts:
+        with open('./urls.txt', 'w') as url_txts:
             for url in urls:
                 url_txts.writelines(url + '\n')
 
