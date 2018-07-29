@@ -78,7 +78,7 @@ theme: hexo-theme-icarus
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/Jinzili/Jinzili.github.io.git
+  repository: git@github.com:Jinzili/Jinzili.github.io.git
   branch: master
 jsonContent:
     meta: false
